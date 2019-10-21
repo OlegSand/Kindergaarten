@@ -1,0 +1,74 @@
+
+
+@media (max-width: 1200px) {
+    .menu {
+        align-items: center;
+        justify-content: center;
+    }
+    .burger {
+        display: block;
+    }
+    .nav {
+        display: none;
+        height: 0;
+        transition: all 1s;
+        & .nav-link {
+            &:hover {
+                filter: brightness(.7);
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+    .kid-party_all {
+        display: grid;
+        justify-content: space-evenly;
+    }
+    .kid-party_card {
+        margin: 3em 0;
+    }
+    .our-team_employee {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-us {
+        flex-direction: column;
+        align-items: center;
+        .about-us_img {
+            display: none;
+        }
+        .about-us_text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .about-us_more {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    .side_maintext {
+        h2 {
+            font-size: 5em;
+        }
+    }
+    .maintext {
+        h2 {
+            font-size: 5em;
+        }
+    }
+    .btn-main {
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrap-block {
+        flex-direction: column;
+        align-items: center;
+    }
+}
