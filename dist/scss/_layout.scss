@@ -1,0 +1,99 @@
+@import 'custom-var';
+
+
+header {    
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    & .scroll-down {
+        position: absolute;
+        bottom: 8em;
+        & a {
+            background: red;
+            border: none;
+            &:active, &:focus {
+                background: red;
+                border: none;
+                box-shadow: none;
+            }
+            &:hover {
+                background: rgb(101, 1, 109);
+            }
+        }
+    }
+}
+
+
+//--------- MAIN START------------------
+
+// about-us start
+#about {
+    background: linear-gradient($yell,$softBlue),url(../img/bg/png/2.png) center no-repeat;
+    background-size: cover
+}
+.about-us {
+    margin: 7.5em 0;
+}
+
+.about-us_text{
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+.about-us_more {
+    & a {
+        width: 100%;
+        color: #fff;
+        padding: 12px 0;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        transition: ease-in-out .3s;
+        &:hover, &:focus {
+            outline: none;
+            background: #000;
+            border-radius: 10px;
+        }
+    }
+}
+// about-us end
+
+// kid-party start
+
+#kid-party {     
+// <<<<<<< HEAD
+    background: url('../img/bg/1.jpg') center no-repeat;
+    background-size: cover;
+// =======
+    background: linear-gradient($shadowBg, $shadowBg),url('../img/bg/k2.jpg') no-repeat;
+// >>>>>>> 03e9043e70217c7510d109af0075f7d964a224a0
+    padding-bottom: 50px;
+    background-size: cover;
+    box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.5);
+}
+
+.kid-party_all {
+    display: flex;
+}
+
+.kid-party_event_1{
+    & .card-body {
+        background: cyan;
+    }
+}
+.kid-party_event_2{
+    & .card-body {
+        background: rosybrown;
+    }
+}
+.kid-party_event_3{
+    & .card-body {
+        background: violet;
+    }
+}
+
+
+
+

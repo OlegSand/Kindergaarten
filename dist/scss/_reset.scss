@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #269ca7;
+  margin: 0 auto;
+  color: #fff;
+  font: 10px/1 'Marck Script', 'Neucha', sans-serif;
+}
+
+li {
+  list-style-type: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  
+}
+
+img {
+  width: 100%;
+  // border-radius: 10px;
+}
+
+section {
+  padding-bottom: 6em;
+}
+.col-md-4 {
+  overflow: hidden;
+}
