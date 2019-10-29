@@ -1,4 +1,4 @@
-@import 'custom-var';
+
 
 header {
     background: url(../img/head-bg-wonder.jpg) no-repeat center;
@@ -23,11 +23,10 @@ header {
     height: 70vh !important;
     & .nav-item {
         justify-content: center;
-        &:hover {
-
-        }
     }
 }
+
+//burger style
 
 .burger {
     display: none;
@@ -182,16 +181,12 @@ header {
     }
 }
 
-// , &:active, &:focus, &:focus-within, &:visited
 .about-us_text__wrapp{
     max-height: 316px;
     max-width: 525px;
     overflow: hidden;
     
 }
-
-
-
 
 .card-body >*{
     color: #fff;
@@ -337,8 +332,6 @@ header {
     }
 }
 
-//cubic-bezier(.34,.61,.85,6)
-
 #our-address {
     a {
         display: block;
@@ -435,10 +428,6 @@ input[type="submit"]{
 input[placeholder], input::-webkit-input-placeholder {
     color: $fuschia;
 }
-// input::-webkit-input-placeholder {color:#c0392b;}
-// input::-moz-placeholder          {color:#c0392b;}/* Firefox 19+ */
-// input:-moz-placeholder           {color:#c0392b;}/* Firefox 18- */
-// input:-ms-input-placeholder      {color:#c0392b;}
 
 .visible_form {
     display: grid !important;

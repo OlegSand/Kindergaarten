@@ -1,4 +1,4 @@
-@import 'custom-var';
+
 
 
 header {    
@@ -62,13 +62,11 @@ header {
 
 // kid-party start
 
-#kid-party {     
-// <<<<<<< HEAD
+#kid-party {
     background: url('../img/bg/1.jpg') center no-repeat;
     background-size: cover;
-// =======
     background: linear-gradient($shadowBg, $shadowBg),url('../img/bg/k2.jpg') no-repeat;
-// >>>>>>> 03e9043e70217c7510d109af0075f7d964a224a0
+
     padding-bottom: 50px;
     background-size: cover;
     box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.5);
@@ -94,13 +92,10 @@ header {
     }
 }
 
-<<<<<<< HEAD
 .card-text {
     text-align: center;
 }
 
-=======
->>>>>>> 800fdeb5abe0682ce52444ba37f5f7f86d46926e
 
 
 
