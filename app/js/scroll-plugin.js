@@ -1,14 +1,13 @@
+'use strict';
 
+var showDetails = document.getElementsByClassName('btn-details');
 
-
-let showDetails = document.getElementsByClassName('btn-details');
-
-for(let i = 0; i < showDetails.length; i++){
-    showDetails[i].addEventListener('click', scrollToDetails, false)
+for (var i = 0; i < showDetails.length; i++) {
+    showDetails[i].addEventListener('click', scrollToDetails, false);
 };
 
-function scrollToDetails(e){
+function scrollToDetails(e) {
     e.preventDefault;
-    let windHeight = document.documentElement.clientHeight;
-    window.scrollTo({top: windHeight, left: 0, behavior: 'smooth'});
+    var windHeight = document.documentElement.clientHeight;
+    window.scrollTo({ top: windHeight, left: 0, behavior: 'smooth' });
 };

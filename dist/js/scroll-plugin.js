@@ -1,9 +1,5 @@
 
-// let scrollDown = document.getElementsByClassName('scroll-down');
 
-// scrollDown.onclick = function (e) {
-//     return document.scr
-// }
 
 let showDetails = document.getElementsByClassName('btn-details');
 
@@ -13,5 +9,6 @@ for(let i = 0; i < showDetails.length; i++){
 
 function scrollToDetails(e){
     e.preventDefault;
-    return window.scrollBy(0, window.pageYOffset);
+    let windHeight = document.documentElement.clientHeight;
+    window.scrollTo({top: windHeight, left: 0, behavior: 'smooth'});
 };
